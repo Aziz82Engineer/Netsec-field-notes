@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Never commit real device backups. Put test configs in samples/ only.
+*.conf
+!samples/*.conf
